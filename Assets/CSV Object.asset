@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3a61fe35a6da8498def5b3f0bebed5, type: 3}
+  m_Name: CSV Object
+  m_EditorClassIdentifier: 
+  prefabCSV:
+  - nameTile: obstacles
+    ID: 0
+    prefab:
+    - {fileID: 1248444917233380791, guid: c2d5cd6efce350e45a7f8c35fed0589a, type: 3}
+  - nameTile: fin
+    ID: 1
+    prefab:
+    - {fileID: 678756873669058205, guid: 6f9a984ce7c8b1f40a4628729fe322b9, type: 3}
+  - nameTile: trou
+    ID: 2
+    prefab:
+    - {fileID: 9100310557245674867, guid: 037a50a0eca2ea84596c4dbf303ac1fb, type: 3}
+  - nameTile: Judy
+    ID: 3
+    prefab:
+    - {fileID: 4133646632354396284, guid: 31c3b37d815efcd458498469ef480be1, type: 3}
+    - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
+  - nameTile: Edwin
+    ID: 4
+    prefab:
+    - {fileID: 4467044778946653250, guid: ecc7504b6660fbe40a14273f83fee03d, type: 3}
+    - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
+  - nameTile: sol
+    ID: 5
+    prefab:
+    - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
