@@ -13,6 +13,7 @@ public class Level : ScriptableObject
     {
         public TextAsset csvLevel;
         public Sprite miniature;
+        [Header("Enchainement Niveau")]
         public EndLevel.NextLevel next;
 
         [DrawIf("next", EndLevel.NextLevel.AnotherLevel)] public Level level;
@@ -20,6 +21,7 @@ public class Level : ScriptableObject
 
         [DrawIf("next", EndLevel.NextLevel.AnotherScene)] public int indexScene;
 
+        [Header("Zoom Camera")]
         public float[] distZoom;
         public float[] zoom;
 

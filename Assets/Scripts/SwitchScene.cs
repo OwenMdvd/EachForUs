@@ -54,6 +54,7 @@ public class SwitchScene : MonoBehaviour
     public static void LoadScene(int sceneIndexLoad)
     {
         SceneManager.LoadScene(sceneIndexLoad);
+        StopAll();
     }
 
     public static bool IsPointerOverUIObject()

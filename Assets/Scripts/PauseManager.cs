@@ -47,7 +47,8 @@ public class PauseManager : MonoBehaviour
             GameObject go = Instantiate(button);
             go.transform.SetParent(parentButton.transform);
             go.GetComponent<Button>().onClick.AddListener(() => GetComponent<PauseManager>().LoadLevel(level, level.levels.IndexOf(item)));
-            go.GetComponentInChildren<Text>().text = i.ToString();
+            go.GetComponent<Image>().sprite = item.miniature;
+            //go.GetComponentInChildren<Text>().text = i.ToString();
             i++;
         }
     }

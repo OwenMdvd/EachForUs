@@ -15,92 +15,147 @@ MonoBehaviour:
   Name: ATTIC
   levels:
   - csvLevel: {fileID: 4900000, guid: c6507c9d199843446ac4a7734f240b1a, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 90e280e015c923046802c4d4d64f83ee, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom:
+    - 4
+    zoom:
+    - 8
+    zoomSolo: 8
   - csvLevel: {fileID: 4900000, guid: 69e7d0237bc9f0446a61d529320b4dd7, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 843c3bc7681771f49b77f704f4ad7ed8, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom:
+    - 4
+    zoom:
+    - 8
+    zoomSolo: 8
   - csvLevel: {fileID: 4900000, guid: 776dd64d7f6e9bb499a8eb718b99216b, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: ba42c31d332512b428db45e19e6c94ba, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom:
+    - 4
+    zoom:
+    - 8
+    zoomSolo: 8
   - csvLevel: {fileID: 4900000, guid: b55f9639462488347a4eb571fae11b9f, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: dd8c1cf719525b44cae28b43f65d85ad, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom:
+    - 8
+    zoom:
+    - 8
+    zoomSolo: 8
   - csvLevel: {fileID: 4900000, guid: 5b2ef5d78faa2da48a02ae3b07959713, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: f52cfeec24f00e143859d0047da88e99, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom:
+    - 8
+    zoom:
+    - 8
+    zoomSolo: 8
   - csvLevel: {fileID: 4900000, guid: 39c212bd644194248bc99b7b71dd8e10, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 84c057f428a8ebd49a1248994aa3cb05, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 523bf4c4ee742e04190a7bec8ee5432d, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: a3eab960192c1304cbb8b445e810f4fd, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 1e31b87ddb5d4f748bf5b47754a5d718, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: dad34f05da48efe4ca3f797a6e948adb, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 525d701b224ae074c92b4b3b8cddaa51, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: f3fb8e1a2daf02e469ba4007c5e9872f, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 017458946645a3f438fc7c0599e2bb6b, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 103ced7030a38d24384584ffa7535d6e, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: fd59d4f04fe444c47955c887f9bc6b9a, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 6c8024f89eac4d74c860515a606c37ee, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: d903575e67ace3d44bfff93af8369b8b, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: a809e34389433f8418f2490ae876abc9, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 9a27ae6989466f5449b540b01ebf91f1, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 5b2170ff9b4b02142bde2f56fa986274, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 9a7d5d273bcf12746a1d4d9f482f2b22, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 33dc915a93be7d340acda8f933a2ee51, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 95dbf643323206b4caf8fb8675936d98, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 502b53c7154dee146a6548a78c6af861, type: 3}
     next: 1
     level: {fileID: 11400000, guid: bd917a54c3c0f3f4590f795cb4a91782, type: 2}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
