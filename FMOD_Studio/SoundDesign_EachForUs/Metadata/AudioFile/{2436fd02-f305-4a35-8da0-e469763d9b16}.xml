@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{2436fd02-f305-4a35-8da0-e469763d9b16}">
+		<property name="assetPath">
+			<value>amb/amb_1/amb_1_percus.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c7a28de-bf43-4cd0-918c-2e5ad930ae6f}</destination>
+		</relationship>
+	</object>
+</objects>

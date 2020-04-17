@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5b40203d-4d21-4928-96fd-aa5dd490a27f}">
+		<property name="assetPath">
+			<value>amb/child_laughs/child_laughs5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.5208390022675733</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c7a28de-bf43-4cd0-918c-2e5ad930ae6f}</destination>
+		</relationship>
+	</object>
+</objects>
