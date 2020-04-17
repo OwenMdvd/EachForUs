@@ -19,5 +19,10 @@ public class Level : ScriptableObject
         [DrawIf("next", EndLevel.NextLevel.AnotherLevel)] public int index;
 
         [DrawIf("next", EndLevel.NextLevel.AnotherScene)] public int indexScene;
+
+        public float[] distZoom;
+        public float[] zoom;
+
+        public float zoomSolo;
     }
 }

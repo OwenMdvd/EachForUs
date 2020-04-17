@@ -20,6 +20,12 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var levelToLoad = SwitchScene.level;
+        var numberLevel = SwitchScene.index;
+        distZoom = levelToLoad.levels[numberLevel].distZoom;
+        zoom = levelToLoad.levels[numberLevel].zoom;
+        zoomSolo = levelToLoad.levels[numberLevel].zoomSolo;
+
         players.Clear();
         foreach (var item in GameObject.FindGameObjectsWithTag("Player"))
         {
