@@ -27,19 +27,27 @@ public class PlayerController : MonoBehaviour
             move = false;
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
             {
+                foreach (var item in FindObjectsOfType<MobController>())
+                {
+                    item.StartCoroutine(item.MoveMob(Mathf.Abs(Input.GetAxisRaw("Horizontal"))));
+                }
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0), .2f, stopPlayer))
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0);
-                    timer = 0;
                 }
+                timer = 0;
             }
             else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
             {
+                foreach (var item in FindObjectsOfType<MobController>())
+                {
+                    item.StartCoroutine(item.MoveMob(Mathf.Abs(Input.GetAxisRaw("Vertical"))));
+                }
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0,Input.GetAxisRaw("Vertical"), 0), .2f, stopPlayer))
                 {
                     movePoint.position += new Vector3(0,Input.GetAxisRaw("Vertical"), 0);
-                    timer = 0;
                 }
+                timer = 0;
             }
         }
         else
@@ -54,14 +62,14 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            SwitchScene.ResetScene();
         }
     }
     public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Trap") && !move)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            SwitchScene.ResetScene();
         }
         if (collision.CompareTag("End") && !move)
         {

@@ -4,7 +4,6 @@ using UnityEngine;
 using System.Linq;
 using UnityEditor;
 
-[ExecuteInEditMode]
 public class TestCSV : MonoBehaviour
 {
     public TextAsset txt;
@@ -17,6 +16,9 @@ public class TestCSV : MonoBehaviour
 
     private void Awake()
     {
+        levelToLoad = SwitchScene.level;
+        numberLevel = SwitchScene.index;
+        DestroyAllChild();
         SpawnMap();
     }
 
@@ -66,6 +68,35 @@ public class TestCSV : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (txt != null)
+        {
+            txt = levelToLoad.levels[numberLevel].csvLevel;
+            var rows = txt.text.Split('\n').Select(l => l.Split(',').ToArray()).ToArray();
+            string[,] test2D = To2D<string>(rows);
+            for (int y = 0; y < test2D.GetLength(0); y++)
+            {
+                for (int x = 0; x < test2D.GetLength(1); x++)
+                {
+                    foreach (var item in tiles.prefabCSV)
+                    {
+                        if (item.ID.ToString() == test2D[y, x])
+                        {
+                            Gizmos.color = item.debugColor;
+                            Gizmos.DrawCube(transform.TransformPoint(new Vector3(x * 1, y * -1, 0)), new Vector3(1, 1, .1f));
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    Color InvertColor(Color color)
+    {
+        return new Color(1.0f-color.r, 1.0f-color.g, 1.0f-color.b);
     }
 
     static T[,] To2D<T>(T[][] source)

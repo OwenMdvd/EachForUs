@@ -17,25 +17,36 @@ MonoBehaviour:
     ID: 0
     prefab:
     - {fileID: 1248444917233380791, guid: c2d5cd6efce350e45a7f8c35fed0589a, type: 3}
+    debugColor: {r: 0, g: 0, b: 0, a: 1}
   - nameTile: fin
     ID: 1
     prefab:
     - {fileID: 678756873669058205, guid: 6f9a984ce7c8b1f40a4628729fe322b9, type: 3}
+    debugColor: {r: 0, g: 1, b: 0, a: 1}
   - nameTile: trou
     ID: 2
     prefab:
     - {fileID: 9100310557245674867, guid: 037a50a0eca2ea84596c4dbf303ac1fb, type: 3}
+    debugColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   - nameTile: Judy
     ID: 3
     prefab:
     - {fileID: 4133646632354396284, guid: 31c3b37d815efcd458498469ef480be1, type: 3}
     - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
+    debugColor: {r: 1, g: 0, b: 0.8835707, a: 1}
   - nameTile: Edwin
     ID: 4
     prefab:
     - {fileID: 4467044778946653250, guid: ecc7504b6660fbe40a14273f83fee03d, type: 3}
     - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
+    debugColor: {r: 0, g: 0.8861275, b: 1, a: 1}
   - nameTile: sol
     ID: 5
     prefab:
     - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
+    debugColor: {r: 1, g: 1, b: 1, a: 1}
+  - nameTile: monstre
+    ID: 6
+    prefab:
+    - {fileID: 6705343103946227303, guid: cb765d3ef794baa44884220583dbaa1a, type: 3}
+    debugColor: {r: 1, g: 0, b: 0, a: 1}

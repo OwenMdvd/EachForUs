@@ -10,8 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0885d1a2f77a79149ad7b472d4c2bdbf, type: 3}
-  m_Name: Level Creation
+  m_Name: ATTIC
   m_EditorClassIdentifier: 
+  Name: ATTIC
   levels:
   - csvLevel: {fileID: 4900000, guid: 55c30e1a825d1634d865a114408b3238, type: 3}
     miniature: {fileID: 0}
+    next: 0
+    level: {fileID: 0}
+    index: 0
+    indexScene: 0
+  - csvLevel: {fileID: 4900000, guid: 3970c63da55a58441a55e2c4f4254a67, type: 3}
+    miniature: {fileID: 0}
+    next: 2
+    level: {fileID: 0}
+    index: 0
+    indexScene: 0

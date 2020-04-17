@@ -13,5 +13,6 @@ public class CSVLoader : ScriptableObject
         public string nameTile;
         public int ID;
         public GameObject[] prefab;
+        public Color debugColor;
     }
 }
