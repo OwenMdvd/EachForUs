@@ -12,12 +12,16 @@ public class MobController : MonoBehaviour
     public float delayMove;
     [Range(-1,1)]
     public int inverse;
-
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         movePoint.parent = null;
+        bool mirror = inverse == 1f ? true : false;
+        GetComponentInChildren<SpriteRenderer>().flipX = mirror;
+        anim = GetComponentInChildren<Animator>();
+        anim.SetBool("Up", upMove);
     }
 
     // Update is called once per frame
@@ -52,6 +56,7 @@ public class MobController : MonoBehaviour
             {
                 inverse *= -1;
                 movePoint.position += new Vector3(.5f * inverse, 0, 0);
+                GetComponentInChildren<SpriteRenderer>().flipX = !GetComponentInChildren<SpriteRenderer>().flipX;
             }
         }
     }

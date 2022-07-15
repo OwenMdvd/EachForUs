@@ -49,4 +49,5 @@ MonoBehaviour:
     ID: 6
     prefab:
     - {fileID: 6705343103946227303, guid: cb765d3ef794baa44884220583dbaa1a, type: 3}
+    - {fileID: 7762935917179430894, guid: 1515299f71e056340a86574ffbac2a54, type: 3}
     debugColor: {r: 1, g: 0, b: 0, a: 1}

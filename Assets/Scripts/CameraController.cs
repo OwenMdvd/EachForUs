@@ -47,7 +47,6 @@ public class CameraController : MonoBehaviour
 
         SetZoom();
 
-        Debug.Log(Vector3.Distance(transform.position, new Vector3(CenterOfVectors().x, CenterOfVectors().y, zoomBase)));
         float dist = Vector3.Distance(transform.position, new Vector3(CenterOfVectors().x, CenterOfVectors().y, zoomBase));
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(CenterOfVectors().x, CenterOfVectors().y, zoomBase), curve.Evaluate(dist) * Time.deltaTime);
         //transform.position = Vector3.MoveTowards(transform.position, new Vector3(CenterOfVectors().x, CenterOfVectors().y, zoomBase), moveSpeed * Time.deltaTime);

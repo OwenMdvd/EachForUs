@@ -15,26 +15,38 @@ MonoBehaviour:
   Name: DORMITORY
   levels:
   - csvLevel: {fileID: 4900000, guid: 07486669b56952c4596ac84dd7567641, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 90e280e015c923046802c4d4d64f83ee, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 949de9f6c454e1147bd5292c7fd133c0, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: 843c3bc7681771f49b77f704f4ad7ed8, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: c854b9a4bef9d3d4392b43cc97423878, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: ba42c31d332512b428db45e19e6c94ba, type: 3}
     next: 0
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0
   - csvLevel: {fileID: 4900000, guid: 4b951b8eea780f44cabd2dd4850e27e9, type: 3}
-    miniature: {fileID: 0}
+    miniature: {fileID: 21300000, guid: dd8c1cf719525b44cae28b43f65d85ad, type: 3}
     next: 2
     level: {fileID: 0}
     index: 0
     indexScene: 0
+    distZoom: []
+    zoom: []
+    zoomSolo: 0

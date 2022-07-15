@@ -54,6 +54,7 @@ MonoBehaviour:
     m_Bits: 256
   move: 0
   delayInput: 0.2
+  anim: {fileID: 0}
 --- !u!61 &4133646632354396224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -78,7 +79,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.05}
+  m_Size: {x: 0.15, y: 0.15}
   m_EdgeRadius: 0
 --- !u!50 &4133646632354396231
 Rigidbody2D:
@@ -113,7 +114,7 @@ GameObject:
   m_Layer: 0
   m_Name: movePoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -223,7 +224,7 @@ Animator:
   m_GameObject: {fileID: 4133646633688342153}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4598f748f677c3d44a40c4c43d01cfe6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

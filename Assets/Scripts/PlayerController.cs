@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour
     public bool move;
     float timer;
     public float delayInput;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         movePoint.parent = null;
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,8 @@ public class PlayerController : MonoBehaviour
             move = false;
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
             {
+                anim.SetFloat("X", Input.GetAxisRaw("Horizontal"));
+                anim.SetFloat("Y", 0);
                 foreach (var item in FindObjectsOfType<MobController>())
                 {
                     item.StartCoroutine(item.MoveMob(Mathf.Abs(Input.GetAxisRaw("Horizontal"))));
@@ -39,6 +43,8 @@ public class PlayerController : MonoBehaviour
             }
             else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
             {
+                anim.SetFloat("Y", Input.GetAxisRaw("Vertical"));
+                anim.SetFloat("X", 0);
                 foreach (var item in FindObjectsOfType<MobController>())
                 {
                     item.StartCoroutine(item.MoveMob(Mathf.Abs(Input.GetAxisRaw("Vertical"))));
@@ -68,6 +74,10 @@ public class PlayerController : MonoBehaviour
     public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Trap") && !move)
+        {
+            SwitchScene.ResetScene();
+        }
+        if (collision.CompareTag("Monstre"))
         {
             SwitchScene.ResetScene();
         }
